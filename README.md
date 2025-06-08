@@ -48,3 +48,48 @@ Each day delivers **full scripts**, **plain-English write-ups**, and **demos** s
 git clone https://github.com/Jxnesyy/hack2mint30.git
 cd hack2mint30
 
+## Usage
+
+To run a day’s exercises:
+
+```bash
+# For Day 1 (cyber):
+cd cyber/day1
+./network_scan.sh 10.0.2.0/24
+
+# For Day 2 (blockchain):
+cd blockchain/day2
+# …your commands here…
+
+hack2mint30/
+├── cyber/         # Odd days (Day1,3,…29)
+├── blockchain/    # Even days (Day2,4,…30)
+├── scripts/       # Helpers and automation
+├── docs/          # Cheatsheets and playbooks
+└── README.md      # ← this file
+
+Tools & Technologies
+Cybersecurity
+Nmap
+
+masscan
+
+Wireshark
+
+…etc.
+
+Blockchain & NFT
+Ganache
+
+MetaMask
+
+Hardhat / Truffle
+
+…etc.
+
+Contributing
+Fork the repo, create a branch (feature/dayXX), add your code under the proper folder, open a PR, and tag @Jxnesyy for review.
+
+License
+This project is released under the MIT License. See LICENSE for details.
+

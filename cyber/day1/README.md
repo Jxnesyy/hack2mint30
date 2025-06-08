@@ -1,12 +1,15 @@
-# Day '"$day"': **[Add Title]**
+# Day 1: Network Scanning with Nmap
 
-## Objective
-- Describe what you’ll accomplish on Day '"$day"'.
+## 🎯 Objective
+Discover live hosts and enumerate all open TCP ports on your local network.
 
-## Prerequisites
-- List any tools or knowledge needed.
+## 🚀 Steps
 
-## Steps
-1. Step 1…
-2. Step 2…
-3. Step 3…
+1. **Run the scan**  
+   ```bash
+   ./network_scan.sh 10.0.2.0/24
+
+## 🔍 Findings
+- 10.0.2.2 → SSH (22), MSRPC (135), Microsoft-DS (445)
+- 10.0.2.3 → DNS (53)
+- 10.0.2.15 → SSH (22)

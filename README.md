@@ -1,2 +1,4 @@
-# hacktomint30
-30-day hybrid cybersecurity + NFT blockchain challenge
+# 🚀 hack2mint30
+
+Your 30-day hybrid challenge! Follow each day’s folder under \`cyber/\` or \`blockchain/\`.  
+Complete scripts, write-ups, and demos live there.  
